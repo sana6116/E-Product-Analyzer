@@ -1,5 +1,3 @@
-import csv
-from re import template
 from webbrowser import Chrome
 from bs4 import BeautifulSoup
 from selenium import webdriver

@@ -1,27 +1,42 @@
-# Scraping of Zomato data
+# AMAZON PRODUCT AUTOMATION
 
-### What is it?
-It is desgined to scape data from E-commerse-wesite about any product
+## Table of Content
 
-### Main Features:
+1. Introduction
+2. Details
+3. Modules
+4. Help
 
-1. the product is specified by the user 
+## Introduction
+Amazon is an E-commerce website/Application used for buying products which also helps to compare the product from different retailers. Here, we automate the products Name, Price, Rating out of 5 stars, Description and Url for any product and create it into a dataframe and save it to csv file.
 
-2. It scrapes every products's mentioned by the user  **Name**, **Price**  .
+## Details
+This project has three major processes and they are :
 
-3. the scraped data is saved to  csv file 
+**Web Scraping**
+Web scraping of E- commerce website/Application Amazon for a product details searched.
 
-### Dependencies
+**Creating Dataframe**
+Obtaining data from web scraping of prouct and create a 2d tabular data also known as Dataframe.
 
-1. **selenium** : Selenium is one of the most renowned open-source test automation frameworks. Selenium allows test automation of web-apps or websites across different browsers & operating systems.
+**converting Dataframe into csv file**
+CSV file stands for comma-separated values file which makes the data more readable.
 
-2. **Selenium/Webdriver** : Selenium WebDriver allows you to directly interact with the browsers through your automation test scripts.
+## Modules
+**Selenium**
+Selenium is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms. You can use multiple programming languages like Java, C#, Python, etc to create Selenium Test Scripts.
 
-3. **Time** : The Python time module provides many ways of representing time in code, such as objects, numbers, and strings. It also provides functionality other than representing time, like waiting during code execution and measuring the efficiency of your code.
+**selenium webdriver**
+Selenium WebDriver is a web framework that permits you to execute cross-browser tests. This tool is used for automating web-based application testing to verify that it performs expectedly.
 
-4. **Pandas** : Pandas is an open source Python package that is most widely used for data science/data analysis and machine learning tasks
+**Pandas**
+pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
 
-5. **Itertools** :Itertools is a module in Python, it is used to iterate over data structures that can be stepped over using a for-loop
+**BeautifulSoup**
+Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.
 
-### Getting help
-for questions use **Stack OverFlow** or **geeksforgeeks**
+## Help
+1. Stack OverFlow
+2. mentatgeeksforgeeks
+3. Python Documentation
+4. beautiful soup documentation
